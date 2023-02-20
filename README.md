@@ -1,10 +1,10 @@
 # ecommerce-wac
 
-install dependenices
+##install dependenices
 
 $ npm install && npm run dev
 
-Set Database in .env
+##Set Database in .env
 
 DB_DATABASE=ecom
 
