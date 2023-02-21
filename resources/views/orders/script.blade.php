@@ -175,7 +175,7 @@
         $('#orderAddTable > tbody:last-child').append(html);
     }
 
-    function deleteCashRow()
+    function deleteRow()
     {
         var totalRowCount = $("#orderAddTable tr").length;
         if(totalRowCount > 2){
@@ -183,12 +183,6 @@
             lastRow = table.find('tbody tr:last'),
             rowClone = lastRow.remove();
         }
-    }
-
-
-    function deleteRow()
-    {
-
     }
 
     function generateInvoice()
