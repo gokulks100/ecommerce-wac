@@ -175,6 +175,17 @@
         $('#orderAddTable > tbody:last-child').append(html);
     }
 
+    function deleteCashRow()
+    {
+        var totalRowCount = $("#orderAddTable tr").length;
+        if(totalRowCount > 2){
+            var table = $('#orderAddTable'),
+            lastRow = table.find('tbody tr:last'),
+            rowClone = lastRow.remove();
+        }
+    }
+
+
     function deleteRow()
     {
 
